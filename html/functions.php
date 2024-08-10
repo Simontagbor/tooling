@@ -5,13 +5,13 @@ session_start();
 $db = mysqli_connect('172.31.26.114', 'admin', 'admin', 'tooling');
 
 //Check connection
-if (mysqli_connect_errno()) {
-echo "Failed to connect to MySQL: " . mysqli_connect_error();
-exit();
-}
-else{
-echo "connected";
-}
+// if (mysqli_connect_errno()) {
+// echo "Failed to connect to MySQL: " . mysqli_connect_error();
+// exit();
+// }
+// else{
+// echo "connected";
+// }
 
 // variable declaration
 $username = "";
