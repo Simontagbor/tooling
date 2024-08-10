@@ -4,7 +4,7 @@ session_start();
 // connect to database
 $db = mysqli_connect('172.31.26.114', 'admin', 'admin', 'tooling');
 
-Check connection
+//Check connection
 if (mysqli_connect_errno()) {
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
 exit();
